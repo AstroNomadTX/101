@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work Sans:wght@600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login-page">
+      <main class="diagram-building-isolated-whit-parent">
+        <img
+          class="diagram-building-isolated-whit-icon"
+          alt=""
+          src="./public/diagrambuildingisolatedwhite-1@2x.png"
+        />
+
+        <section class="rectangle-section"></section>
+      </main>
+      <div class="ellipse-container">
+        <div class="ellipse-div"></div>
+        <div class="frame-child2"></div>
+      </div>
+      <div class="auth-container-wrapper">
+        <div class="auth-container">
+          <img
+            class="mask-group-icon"
+            loading="lazy"
+            alt=""
+            src="./public/mask-group@2x.png"
+          />
+
+          <div class="form-container">
+            <div class="form">
+              <form class="input-fields1">
+                <div class="email-input">
+                  <div class="component-1304">
+                    <div class="email1">Email</div>
+                    <div class="email-icon">
+                      <img
+                        class="huge-iconuseroutlineuser"
+                        alt=""
+                        src="./public/hugeiconuseroutlineuser.svg"
+                      />
+
+                      <input class="email2" placeholder="Email" type="text" />
+                    </div>
+                  </div>
+                  <div class="password-input">
+                    <div class="component-1304">
+                      <div class="email1">Password</div>
+                      <div class="email-icon">
+                        <img
+                          class="huge-iconuseroutlineuser"
+                          alt=""
+                          src="./public/hugeicondeviceoutlinelock.svg"
+                        />
+
+                        <input
+                          class="email2"
+                          placeholder="Password"
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div class="forgot-password">Forgot Password?</div>
+                  </div>
+                </div>
+                <button class="login-button" id="loginButton">
+                  <div class="login">Login</div>
+                  <img
+                    class="vuesaxlineararrow-right-icon5"
+                    alt=""
+                    src="./public/vuesaxlineararrowright2.svg"
+                  />
+                </button>
+              </form>
+              <div class="signup-link">
+                <div class="dont-have-an">Don’t have an account?</div>
+                <div class="sign-up">Sign Up</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var loginButton = document.getElementById("loginButton");
+      if (loginButton) {
+        loginButton.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+    </script>
+  </body>
+</html>
